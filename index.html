@@ -5,12 +5,12 @@
     <title>WDV221 Intro Javascript</title>
 
     <style>
-        div#container   {
-            width:960px;
-            margin:auto;
-            padding:10px;
-            background-color:white; 
-            border:thin solid black;
+        div#container {
+            width: 960px;
+            margin: auto;
+            padding: 10px;
+            background-color: white;
+            border: thin solid black;
         }
     </style>
 
@@ -18,16 +18,18 @@
         // Fix the broken script
         alert('You are on your way to working with Javascript');
 
-        // Replace 'firstname' in the h2
+        // Run all tasks after the page loads
         document.addEventListener("DOMContentLoaded", function() {
+
+            // 1️⃣ Replace 'firstname' in the h2
             document.querySelector("h2").innerHTML = "Hello Lai Hmun! Welcome to JavaScript";
 
-            // Create new h3 element
+            // 2️⃣ Create new h3 element
             let newH3 = document.createElement("h3");
             newH3.textContent = "I am studying for the IT Degree";
             document.body.appendChild(newH3);
 
-            // Display name and major in console
+            // 3️⃣ Display name and major in console
             console.log("Name: Lai Hmun");
             console.log("Major: IT");
         });
@@ -44,11 +46,5 @@
         <h3>Introduction to Javascript - Assignment 1</h3>
 
         <p>Tasks:</p>
-        <p>1. Add a run time script that will replace the words 'firstname' with your name in the content of the h2 element. </p>
-        <p>2. Add a run time script that will create an h3 element with the the words "I am studying for the ??? Degree". Please include your own degree name.</p>
-        <p>3. Create a run time script that will display your name and major on the console log.</p>
-        <p>4. Fix the run time script on this page.</p>
-
-    </div>
-</body>
-</html>
+        <p>1. Add a run time script that will replace the words 'firstname' with your name in the content of the h2 element.</p>
+        <p>2. Add a run time script
